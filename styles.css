@@ -1,0 +1,41 @@
+h1{
+    display:flex;
+    justify-content: left;
+    margin-left: 20px;
+
+}
+
+/* nav{
+    background-color: antiquewhite;
+} */
+
+/* .navbar{
+    background-color: burlywood;
+    overflow: hidden;
+} */
+
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: burlywood;
+    display:flex;
+    justify-content: center;
+    
+}
+
+.navbar a {
+    display:block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: wavy;
+}
+
+.navbar a:hover {
+    background-color: rgb(255, 163, 123);
+}
+
+h4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
